@@ -1,0 +1,19 @@
+
+    /*-- Colores-CMYK
+    ================================================== --*/
+      .cyan{
+        background-color:#009BDB;
+        color: #FF6424; 
+      }
+      .magenta{
+        background-color:#BA007C;
+        color: #45FF83; 
+      }
+      .yellow{
+        background-color:#FEEE00;
+        color: #0011FF; 
+      }
+      .key{
+        background-color:#211915;
+        color:#DEE6EA;
+      }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Titulo</title>
+	
+	<style type="text/css">
+	div.form{margin: 10px auto;}
+	</style> 
+
+
+<!-- 
+HTML Form Tags
+
+<form> 		Define un formulario HTML
+<input> 	Define un control de entrada
+<textarea> 	Defines a multiline input control (text area)
+<label> 	Defines a label for an <input> element
+<fieldset> 	Groups related elements in a form
+<legend> 	Defines a caption for a <fieldset> element
+<select> 	Defines a drop-down list
+<optgroup> 	Defines a group of related options in a drop-down list
+<option> 	Defines an option in a drop-down list
+<button> 	Defines a clickable button
+<datalist> 	Specifies a list of pre-defined options for input controls
+<keygen>	Defines a key-pair generator field (for forms)
+<output>	Defines the result of a calculation 
+			
+enctype		application/x-www-form-urlencoded  (Por defecto)
+			multipart/form-data (Para archivos input file)
+-->
+
+
+
+</head>
+<body>
+	<form id="alta-contacto" name="alta_frm" action="documento" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Alta de contacto</legend>
+			
+			<div class="form">
+				<label for="regularInput">Regular Input-Text</label>
+				<input id="regularInput" type="text">
+			</div>
+
+			<div class="form">
+				<label for="regularInputfile">Regular Input-File</label>
+				<input id="regularInputfile" type="file" />				
+			</div>
+
+			<div class="form">
+	          <label for="regularInputsearch">Regular Input-Search</label>
+	          <input id="regularInputsearch" type="search" />				
+			</div>
+
+			<div class="form">
+	          <label for="regularInputcolor">Regular Input-Color</label>
+	          <input id="regularInputcolor" type="color" />				
+			</div>
+
+			<div class="form">
+	          <label for="regularTextarea">Regular Textarea</label>
+	          <textarea id="regularTextarea"></textarea>			
+			</div>
+
+			<div class="form">
+	          <label for="selectList">Select List</label>
+	          <select id="selectList">
+	            <option value="Option 1">Option 1</option>
+	            <option value="Option 2">Option 2</option>
+	            <option value="Option 3">Option 3</option>
+	            <option value="Option 4">Option 4</option>
+	          </select>			
+			</div>       
+        
+			<div class="form">
+				<label for="optgroup">Select List opgroup</label>
+				<select>
+					<optgroup id="optgroup" label="Swedish Cars">
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+					</optgroup>
+					<optgroup label="German Cars">
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</optgroup>
+				</select>			
+			</div>   
+          
+
+          
+
+          <fieldset>
+            <legend>Checkboxes</legend>
+            <label for="regularCheckbox">
+              <input id="regularCheckbox" value="checkbox 1" type="checkbox">
+              <span>Regular Checkbox</span>
+            </label>
+            <label for="secondRegularCheckbox">
+              <input id="secondRegularCheckbox" value="checkbox 2" type="checkbox">
+              <span>Regular Checkbox</span>
+            </label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Radio Buttons</legend>
+            <label for="regularRadio">
+              <input name="radios" id="regularRadio" value="radio 1" type="radio">
+              <span>Regular Radio</span>
+            </label>
+            <label for="secondRegularRadio">
+              <input name="radios" id="secondRegularRadio" value="radio 2" type="radio">
+              <span>Regular Radio</span>
+            </label>
+          </fieldset>
+          <input  type="submit" name="enviar_btn" value="Agregar"/>
+          <button type="submit">Submit Form</button>
+
+		</fieldset>
+	</form>
+
+
+
+</body>
+</html>

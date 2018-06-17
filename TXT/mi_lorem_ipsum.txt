@@ -1,0 +1,188 @@
+        <p><strong>» Un párrafo normal</strong></p>
+        <p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera.</p>
+        
+        <p><strong>» Un formato de párrafo</strong></p>
+        
+        <p>Estos son algunos de los formatos de texto:</p>
+        <small>Soy small</small><br />
+        <b>Soy formato fuerte "strong"</b><br />
+        <em>Soy enfasis en italica "em"</em><br />
+        <i>Soy enfasis en italica</i><br />
+        <span style="text-decoration: line-through;">Soy subrayado</span><br />
+        Esto es un sub-indice: X<sub>2</sub><br />
+        Esto es un super-indice: Y<sup>3</sup><br />
+        Soy abreviatura <abbr title="Señorita">Srta.</abbr><br />
+        Soy acronimo <acronym title="objeto volador no identificado">ovni</acronym><br />
+        Lo siguiente es una definicion: <dfn title="Imagen o sensación subjetiva, propia de un sentido, determinada por otra sensación que afecta a un sentido diferente">Sinestesia</dfn><br />
+        Y al final un clasico link:<a href="#" title="Soy un link">Al infinito y mas allá</a>
+        
+        <hr/>
+
+        <p>» Un párrafo como código pre</p>
+        
+        <p>This is the <code>Panel</code> constructor:</p>
+        <pre>
+          <code>
+function Panel(element, canClose, closeHandler) {
+  this.element = element;
+  this.canClose = canClose;
+  this.closeHandler = function () { if (closeHandler) closeHandler() };
+}
+          </code>
+        </pre>
+        
+        <p><strong>» Un párrafo como blockquote</strong></p>
+        Como dijo<br />
+        <blockquote>
+        Nuestro miedo más profundo no es que seamos inadecuados.Nuestro miedo más profundo es que somos poderosos sin límite.Es nuestra luz, no la oscuridad lo que más nos asusta.
+        <cite>Nelson Mandela</cite>
+        </blockquote>
+        
+        <p><strong>» Lista desordenada</strong></p>
+
+        <ul>
+          <li>Cafe</li>
+          <ul>
+            <li>Cafe negro</li>
+            <li>Cafe con leche</li>
+            <ul>
+              <li>Deslactosada</li>
+              <li>Normal</li>
+              <ul>
+                <li>Azucar</li>
+                <li>Sin Azucar</li>
+              </ul>
+            </ul>
+          </ul>
+          <li>Té</li>
+          <li>Helado</li>
+          <li>Pan de dulce</li>
+        </ul>
+
+        <p><strong>» Lista ordenada</strong></p>
+        <ol type="1" start="1">
+          <li>Cafe</li>
+          <ol>
+            <li>Cafe negro</li>
+            <li>Cafe con leche</li>
+            <ol>
+              <li>Deslactosada</li>
+              <li>Normal</li>
+              <ol>
+                <li>azucar</li>
+                <li>sin azucar</li>
+              </ol>
+            </ol>
+          </ol>
+          <li>Té</li>
+          <li>Helado</li>
+          <li>Pan de dulce</li>
+        </ol>
+        
+        <dl>
+          <dt>Aquí va el término que definiremos</dt>
+          <dd>Y aquí dentro irá la definición propiamente dicha.</dd>
+        </dl>
+        
+        <dl>
+          <dt>Aquí va la segunda definición</dt>
+          <dd>Y aquí dentro irá la segunda definición, separada automáticamente de la anterior.</dd>
+        </dl>
+
+        <address>
+          <strong>Twitter, Inc.</strong><br>
+          795 Folsom Ave, Suite 600<br>
+          San Francisco, CA 94107<br>
+          <abbr title="Telefono">Tel:</abbr> (123) 456-7890<br/>
+          <a href="mailto:#">first.last@example.com</a>
+        </address>
+        <br/>
+        <p><strong>» Heading</strong></p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+
+        <p><strong>» A table</strong></p>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+        </table>
+        <p><strong>» A Form</strong></p>
+        <form>
+          <label for="regularInput">Regular Input-Text</label>
+          <input id="regularInput" type="text">
+          
+          <label for="regularInputfile">Regular Input-File</label>
+          <input id="regularInputfile" type="file" />
+          
+          <label for="regularInputsearch">Regular Input-Search</label>
+          <input id="regularInputfile" type="search" />
+          
+          <label for="regularTextarea">Regular Textarea</label>
+          <textarea id="regularTextarea"></textarea>
+          
+          <label for="selectList">Select List</label>
+          <select id="selectList">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+            <option value="Option 4">Option 4</option>
+          </select>
+          
+          <fieldset>
+            <legend>Checkboxes</legend>
+            <label for="regularCheckbox">
+              <input id="regularCheckbox" value="checkbox 1" type="checkbox">
+              <span>Regular Checkbox</span>
+            </label>
+            <label for="secondRegularCheckbox">
+              <input id="secondRegularCheckbox" value="checkbox 2" type="checkbox">
+              <span>Regular Checkbox</span>
+            </label>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Radio Buttons</legend>
+            <label for="regularRadio">
+              <input name="radios" id="regularRadio" value="radio 1" type="radio">
+              <span>Regular Radio</span>
+            </label>
+            <label for="secondRegularRadio">
+              <input name="radios" id="secondRegularRadio" value="radio 2" type="radio">
+              <span>Regular Radio</span>
+            </label>
+          </fieldset>
+          <input type="button">
+          <button type="submit">Submit Form</button>
+        </form>
